@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "lasereyes",
+  "version": "${version}",
+  "name": "LaserEyes",
+  "description": "Admin laser eyes server-side mod",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/lasereyes/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "org.lilsort.lasereyes.Lasereyes"
+    ]
+  },
+  "mixins": [
+    "lasereyes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
